@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Inter&family=Krona+One&family=Montserrat:wght@800&family=Single+Day&family=Sixtyfour&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    content: 0;}
+
+body{
+    height: 100vh;
+    background-color: #383D58;
+    color: white;}
+
+.cabecalho{
+    padding: 3% 0% 0% 5%;}
+
+.cabecalho__menu__img{
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;}
+
+.cabecalho__menu__paginas{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;}
+
+
+.hub{
+    padding: 5% 5%;
+    gap: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+.hub__textos{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;}
+
+.hub__textos__titulo{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: none;}
+
+.hub__textos__p1{
+    font-family: "Inter", sans-serif ;
+    font-weight: 400;
+    font-size: 1rem ;}
+
+.hub__textos__p2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem ;
+}
+
+.hub__img{
+    width: 15%;}
+
+
+.rodape{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 5px;
+    padding: 5px;}
